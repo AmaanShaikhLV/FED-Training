@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    src: local(''),
+         url('../fonts/nunito-sans-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/nunito-sans-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body
+{
+    margin : 0;
+    padding: 0;
+    background-image: url("../images/login-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Nunito Sans';
+}
+
+.logo
+{
+    content: url("../images/rp-logo.png");
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.container
+{
+    position: absolute;
+    top:28%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin: auto;
+}
+
+.title
+{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.desc
+{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15.5px;
+}
+
+.main
+{
+    position: absolute;
+    background-color: #ffffff;
+    top:65%;
+    left:50%;
+    width: 500px;
+    transform:translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+.main-title
+{
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top:0;
+}
+
+.main-label 
+{
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.main-input
+{
+    margin-left: 20px;
+}
+
+.main-button
+{
+    margin-left: 20px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.main-checkbox
+{
+    font-size: 10px;
+}
+
+hr
+{
+    border-top: 1px solid grey;
+    margin-left: 20px;
+    width: 445px;
+}
+
+footer
+{
+    position: absolute;
+    top:93%;
+    left:49%;
+    color: #ffffff;
+    font-size: 10px;
+    transform:translate(-50%,-50%);
+}
