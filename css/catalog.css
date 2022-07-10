@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  src: local(""),
+    url("../fonts/nunito-sans-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/nunito-sans-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans";
+}
+
+.sidebar {
+  position: fixed;
+  width: 14%;
+  height: 100%;
+  border-right: 1px solid whitesmoke;
+  background-color: #ffffff;
+}
+
+ul li a {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+ul li a {
+  color: gray;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  background-color: transparent;
+}
+
+ul li:hover {
+  background-color: lightskyblue;
+}
+
+i {
+  float: right;
+}
+
+.logo {
+  position: relative;
+  height: 8%;
+  text-align: center;
+  background-color: black;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.logo-img {
+  content: url("../images/rp-logo.png");
+  padding: 5px;
+}
+
+.profile-pic {
+  position: relative;
+  background-color: #ffffff;
+  left: 14.1%;
+  width: 85.9%;
+  height: 54px;
+}
+
+.profile-pic-img {
+  content: url("../images/profile_pic.jpg");
+  height: 40px;
+  width: 45px;
+  margin-top: 7px;
+  margin-right: 7px;
+  border-radius: 11px;
+  float: right;
+}
+
+.container {
+  position: relative;
+  width: 78%;
+  left: 18%;
+  margin-top: 25px;
+  border: 2px solid whitesmoke;
+  background-color: white;
+}
+
+h1 {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.container-1,
+.container-2 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 265px;
+}
+
+.container-1 div,
+.container-2 div {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 25px;
+}
+
+.catalog-1 img {
+  content: url("../images/001.jpg");
+  width: 160px;
+  height: 150px;
+}
+
+.catalog-2 img,
+.catalog-5 img {
+  content: url("../images/002.jpg");
+  width: 160px;
+  height: 150px;
+}
+
+.catalog-3 img,
+.catalog-6 img {
+  content: url("../images/003.jpg");
+  width: 160px;
+  height: 150px;
+}
+
+.catalog-4 img {
+  content: url("../images/004.jpg");
+  width: 160px;
+  height: 150px;
+}

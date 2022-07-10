@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  src: local(""),
+    url("../fonts/nunito-sans-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/nunito-sans-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans";
+}
+
+.sidebar {
+  position: fixed;
+  width: 14%;
+  height: 100%;
+  border-right: 1px solid whitesmoke;
+  background-color: #ffffff;
+}
+
+ul li a {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+ul li a {
+  color: gray;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  background-color: transparent;
+}
+
+ul li:hover {
+  background-color: lightskyblue;
+}
+
+i {
+  float: right;
+}
+
+.logo {
+  position: relative;
+  height: 8%;
+  text-align: center;
+  background-color: black;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.logo-img {
+  content: url("../images/rp-logo.png");
+  padding: 5px;
+}
+
+.profile-pic {
+  position: relative;
+  background-color: #ffffff;
+  left: 14.1%;
+  width: 85.9%;
+  height: 54px;
+}
+
+.profile-pic-img {
+  content: url("../images/profile_pic.jpg");
+  height: 40px;
+  width: 45px;
+  margin-top: 7px;
+  margin-right: 7px;
+  border-radius: 11px;
+  float: right;
+}
+
+.container {
+  position: relative;
+  width: 78%;
+  left: 18%;
+  margin-top: 15px;
+}
+
+.container-status {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+  margin-top: 10px;
+}
+
+.status-1,
+.status-2,
+.status-3,
+.status-4 {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.status-1 hr {
+  border-bottom: 4px solid blue;
+  width: 60%;
+}
+
+.status-2 hr {
+  border-bottom: 4px solid green;
+  width: 80%;
+}
+
+.status-3 hr {
+  border-bottom: 4px solid red;
+  width: 40%;
+}
+
+.status-4 hr {
+  border-bottom: 4px solid gray;
+  width: 50%;
+}
+
+.status-left-text {
+  font-size: 8px;
+  color: grey;
+}
+
+.container-table {
+  margin-top: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 8px;
+}
+
+th {
+  background-color: lightgray;
+}
+
+td {
+  padding: 8px;
+}
+
+.container-cards,
+.container-teams {
+  display: flex;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  background-color: white;
+  width: 25%;
+  margin: 10px 40px 40px 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  text-align: center;
+  padding: 12px;
+}
+
+.team-1,
+.team-2,
+.team-3,
+.team-4 {
+  background-color: white;
+  width: 20%;
+  margin: 10px 40px 40px 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  text-align: center;
+  padding: 12px;
+}

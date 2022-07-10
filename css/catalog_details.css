@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  src: local(""),
+    url("../fonts/nunito-sans-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/nunito-sans-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans";
+}
+
+.sidebar {
+  position: fixed;
+  width: 14%;
+  height: 100%;
+  border-right: 1px solid whitesmoke;
+  background-color: #ffffff;
+}
+
+ul li a {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+ul li a {
+  color: gray;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  background-color: transparent;
+}
+
+ul li:hover {
+  background-color: lightskyblue;
+}
+
+i {
+  float: right;
+}
+
+.logo {
+  position: relative;
+  height: 8%;
+  text-align: center;
+  background-color: black;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.logo-img {
+  content: url("../images/rp-logo.png");
+  padding: 5px;
+}
+
+.profile-pic {
+  background-color: #ffffff;
+  position: relative;
+  left: 14.1%;
+  width: 85.9%;
+  height: 54px;
+}
+
+.profile-pic-img {
+  content: url("../images/profile_pic.jpg");
+  height: 40px;
+  width: 45px;
+  margin-top: 7px;
+  margin-right: 7px;
+  border-radius: 11px;
+  float: right;
+}
+
+.container {
+  position: relative;
+  width: 78%;
+  left: 18%;
+  margin-top: 1px;
+  border: 2px solid whitesmoke;
+  background-color: white;
+  display: flex;
+}
+
+h1 {
+  margin-left: 29px;
+  margin-top: 5px;
+}
+
+.btn {
+  color: #5cb3ff;
+  background-color: #ffffff;
+  margin: 18px;
+  padding: 7px;
+  margin-left: 280px;
+  border: none;
+}
+
+.btn i {
+  float: left;
+  padding: 2px;
+}
+
+.container-img {
+  position: relative;
+  background-color: #ffffff;
+  width: 30%;
+  height: 100%;
+  flex: 1;
+}
+
+.catalog-main-img {
+  content: url("../images/001.jpg");
+  width: 60%;
+  margin: 20px;
+  margin-left: 64px;
+  border: 1px solid gray;
+}
+
+.container-1,
+.container-2 {
+  position: relative;
+  display: flex;
+  width: 120%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container-1 div,
+.container-2 div {
+  border: 1px solid gray;
+  margin-left: 45px;
+}
+
+.container-2 div {
+  margin-top: 10px;
+}
+
+.catalog-1 img {
+  content: url("../images/001.jpg");
+  width: 60px;
+  height: 80px;
+}
+
+.catalog-2 img,
+.catalog-5 img {
+  content: url("../images/002.jpg");
+  width: 60px;
+  height: 80px;
+}
+
+.catalog-3 img,
+.catalog-6 img {
+  content: url("../images/003.jpg");
+  width: 60px;
+  height: 80px;
+}
+
+.catalog-4 img {
+  content: url("../images/004.jpg");
+  width: 60px;
+  height: 80px;
+}
+
+.container-content {
+  position: relative;
+  flex: 2;
+  background-color: #ffffff;
+}
+
+.container-btn {
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  margin: 53px 20px 0 0;
+  padding: 9px;
+}
+
+hr {
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+}
+
+.container-size-btn {
+  margin: 10px 5px 0 0;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  font-size: 10px;
+}
+
+.seller-info {
+  background-color: #ffffff;
+  color: #5cb3ff;
+  border: none;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.container-info-btn {
+  margin: 10px 10px 0 0;
+  border: none;
+  background-color: #ffffff;
+}
+
+hr {
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+}
+
+.footer {
+  position: relative;
+  width: 75%;
+  left: 18%;
+  margin-top: 30px;
+  background-color: darkgray;
+  padding: 25px;
+}

@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
     <link rel="stylesheet" href="css/index.css" />
-</head>
-<body>
-    <img class="logo"/>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <img class="logo" />
     <div class="container">
-        <h1 class="title">
-            WELCOME TO REDPANDA UI HTML - CSS BASIC
-            FED TEMPLATE
-        </h1>
-        <p class="desc">
-            The Red Pandas is a team of pragmatic engineers who care deeply about the quality of their products and the
-            success of their partners.Over the years, we have mastered best practices in building software products from
-            concept to scale and we continue to learn emerging technologies.
-        </p>
+      <h1 class="title">
+        WELCOME TO REDPANDA UI HTML - CSS BASIC FED TEMPLATE
+      </h1>
+      <p class="desc">
+        The Red Pandas is a team of pragmatic engineers who care deeply about
+        the quality of their products and the success of their partners.Over the
+        years, we have mastered best practices in building software products
+        from concept to scale and we continue to learn emerging technologies.
+      </p>
     </div>
     <div class="main">
+      <form
+        name="main_form"
+        onsubmit="return validation();"
+        method="post"
+        action="dashboard.html"
+      >
         <p class="main-title">PLEASE LOG IN</p>
         <label class="main-label">Username</label><br />
-        <input class="main-input" type="text" placeholder="Email or Username" size="50"/><br />
+        <input
+          class="main-input"
+          type="text"
+          placeholder="Email or Username"
+          size="50"
+          name="user_id"
+        /><br />
         <label class="main-label">Password</label><br />
-        <input class="main-input" type="password" placeholder="Password" size="50"/><br /><br />
-        <input class="main-input" type="checkbox" /><label class="main-checkbox">Remember me</label> 
-        <hr>
-        <button class="main-button">Sign In</button>
-        <br/>
-        <br/>
+        <input
+          class="main-input"
+          type="password"
+          placeholder="Password"
+          size="50"
+          name="password"
+        /><br /><br />
+        <input class="main-input" type="checkbox" /><label class="main-checkbox"
+          >Remember me</label
+        >
+        <hr />
+        <input class="main-button" type="submit" value="Sign In" />
+        <br />
+        <br />
+      </form>
     </div>
     <footer>
-        <p>@2020 RedPanda. All rights reserved</p>
+      <p>@2020 RedPanda. All rights reserved</p>
     </footer>
-</body>
+  </body>
 </html>
