@@ -100,35 +100,36 @@ body {
   border-radius: 5px;
 }
 
-.common-hr
-{
-  border-bottom: 4px solid lightgray;
+.common-hr {
+  height: 4px;
+  background-color: lightgray;
+  border: none;
   width: 100%;
 }
 
 .status-1-hr {
-  position:absolute;
+  position: absolute;
   border-bottom: 4px solid blue;
   width: 35%;
   margin-top: -4.5px;
 }
 
 .status-2-hr {
-  position:absolute;
+  position: absolute;
   border-bottom: 4px solid green;
   width: 41%;
   margin-top: -4.5px;
 }
 
 .status-3-hr {
-  position:absolute;
+  position: absolute;
   border-bottom: 4px solid red;
   width: 28%;
   margin-top: -4.5px;
 }
 
 .status-4-hr {
-  position:absolute;
+  position: absolute;
   border-bottom: 4px solid gray;
   width: 36%;
   margin-top: -4.5px;

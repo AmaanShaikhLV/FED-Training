@@ -91,6 +91,20 @@ h1 {
   margin-top: 5px;
 }
 
+.price-underline {
+  position: absolute;
+  margin-top: -27px;
+  margin-left: 12%;
+  font-size: 15px;
+}
+
+.line {
+  position: absolute;
+  width: 6.2%;
+  margin-top: -18px;
+  margin-left: 12%;
+}
+
 .btn {
   color: #5cb3ff;
   background-color: #ffffff;
@@ -117,7 +131,7 @@ h1 {
   margin: 20px;
   margin-left: 45px;
   border: 1px solid lightgray;
-  height: 35%;
+  height: 36%;
 }
 
 .container-1,
@@ -174,14 +188,30 @@ h1 {
   background-color: lightgrey;
   border: none;
   color: black;
-  margin: 53px 20px 0 0;
-  padding: 9px;
+  margin: 62px 15px 0 0;
+  padding: 10px 30px 10px 24px;
 }
 
-hr {
-  border-color: lightgray;
-  margin-top: 10px;
-  width: 96%;
+.container-btn-poly-1,
+.container-btn-poly-2,
+.container-btn-poly-3 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  transform: skew(-10deg);
+  background: white;
+  margin-top: 62px;
+  border: none;
+}
+.container-btn-poly-1 {
+  margin-left: 10.2%;
+}
+
+.container-btn-poly-2 {
+  margin-left: 23%;
+}
+.container-btn-poly-3 {
+  margin-left: 45%;
 }
 
 .container-size-btn {
@@ -207,9 +237,21 @@ hr {
   background-color: #ffffff;
 }
 
-hr {
-  border: 1px solid lightgrey;
+.blue-hr {
+  position: absolute;
+  height: 4px;
+  background-color: dodgerblue;
+  border: none;
+  width: 8.8%;
+  margin-top: -4px;
+}
+
+.gray-hr {
+  background-color: lightgray;
+  border: none;
+  height: 2px;
   margin-top: 10px;
+  width: 96%;
 }
 
 .footer {
@@ -221,7 +263,6 @@ hr {
   padding: 25px;
 }
 
-.footer h4
-{
+.footer h4 {
   margin-top: 29px;
 }
