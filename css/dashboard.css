@@ -38,7 +38,7 @@ ul li:hover {
   background-color: lightskyblue;
 }
 
-i {
+.sidebar i {
   float: right;
 }
 
@@ -100,24 +100,38 @@ body {
   border-radius: 5px;
 }
 
-.status-1 hr {
+.common-hr
+{
+  border-bottom: 4px solid lightgray;
+  width: 100%;
+}
+
+.status-1-hr {
+  position:absolute;
   border-bottom: 4px solid blue;
-  width: 60%;
+  width: 35%;
+  margin-top: -4.5px;
 }
 
-.status-2 hr {
+.status-2-hr {
+  position:absolute;
   border-bottom: 4px solid green;
-  width: 80%;
+  width: 41%;
+  margin-top: -4.5px;
 }
 
-.status-3 hr {
+.status-3-hr {
+  position:absolute;
   border-bottom: 4px solid red;
-  width: 40%;
+  width: 28%;
+  margin-top: -4.5px;
 }
 
-.status-4 hr {
+.status-4-hr {
+  position:absolute;
   border-bottom: 4px solid gray;
-  width: 50%;
+  width: 36%;
+  margin-top: -4.5px;
 }
 
 .status-left-text {
@@ -135,19 +149,37 @@ table {
   border-collapse: collapse;
   text-align: center;
   margin-top: 8px;
+  margin-left: 16px;
 }
 
 th {
   background-color: lightgray;
+  border: 1px solid lightgrey;
+  padding: 8px;
 }
 
 td {
   padding: 8px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.last-row td {
+  border: none;
 }
 
 .container-cards,
 .container-teams {
   display: flex;
+}
+
+.card-btn {
+  position: absolute;
+  margin-left: 108px;
+  padding: 2px;
+  background-color: green;
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
 }
 
 .card-1,
@@ -170,9 +202,91 @@ td {
   background-color: white;
   width: 20%;
   margin: 10px 40px 40px 40px;
-  align-items: center;
-  justify-content: center;
   border-radius: 5px;
-  text-align: center;
   padding: 12px;
+}
+
+.container-teams p {
+  text-align: center;
+}
+
+.container-teams h4 {
+  margin-left: 15px;
+}
+
+.team-btn-1,
+.team-btn-2,
+.team-btn-3,
+.team-btn-4 {
+  position: absolute;
+  margin-top: 10px;
+  border-radius: 50%;
+  padding: 7px;
+  color: #ffffff;
+  border: none;
+}
+
+.team-btn-1#btn-1 {
+  margin-left: 95px;
+  background-color: purple;
+}
+
+.team-btn-1#btn-2 {
+  margin-left: 120px;
+  background-color: darkgoldenrod;
+}
+
+.team-btn-1#btn-3 {
+  margin-left: 145px;
+  background-color: blue;
+}
+
+.team-btn-2#btn-1 {
+  margin-left: 75px;
+  background-color: purple;
+}
+
+.team-btn-2#btn-2 {
+  margin-left: 100px;
+  background-color: darkgoldenrod;
+}
+
+.team-btn-2#btn-3 {
+  margin-left: 125px;
+  background-color: blue;
+}
+
+.team-btn-2#btn-4 {
+  margin-left: 150px;
+  background-color: green;
+}
+
+.team-btn-3#btn-1 {
+  margin-left: 125px;
+  background-color: green;
+}
+
+.team-btn-3#btn-2 {
+  margin-left: 150px;
+  background-color: blue;
+}
+
+.team-btn-4#btn-1 {
+  margin-left: 75px;
+  background-color: purple;
+}
+
+.team-btn-4#btn-2 {
+  margin-left: 100px;
+  background-color: darkgoldenrod;
+}
+
+.team-btn-4#btn-3 {
+  margin-left: 125px;
+  background-color: blue;
+}
+
+.team-btn-4#btn-4 {
+  margin-left: 150px;
+  background-color: green;
 }

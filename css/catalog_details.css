@@ -109,31 +109,29 @@ h1 {
   position: relative;
   background-color: #ffffff;
   width: 30%;
-  height: 100%;
-  flex: 1;
 }
 
 .catalog-main-img {
   content: url("../images/001.jpg");
-  width: 60%;
+  width: 70%;
   margin: 20px;
-  margin-left: 64px;
-  border: 1px solid gray;
+  margin-left: 45px;
+  border: 1px solid lightgray;
+  height: 35%;
 }
 
 .container-1,
 .container-2 {
   position: relative;
   display: flex;
-  width: 120%;
-  flex-wrap: wrap;
-  align-items: center;
+  width: 30%;
+  margin-left: 39px;
 }
 
 .container-1 div,
 .container-2 div {
-  border: 1px solid gray;
-  margin-left: 45px;
+  border: 1px solid lightgray;
+  margin: 5px;
 }
 
 .container-2 div {
@@ -181,8 +179,9 @@ h1 {
 }
 
 hr {
-  border: 1px solid lightgrey;
+  border-color: lightgray;
   margin-top: 10px;
+  width: 96%;
 }
 
 .container-size-btn {
@@ -217,7 +216,12 @@ hr {
   position: relative;
   width: 75%;
   left: 18%;
-  margin-top: 30px;
+  margin-top: 60px;
   background-color: darkgray;
   padding: 25px;
+}
+
+.footer h4
+{
+  margin-top: 29px;
 }
