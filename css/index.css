@@ -1,6 +1,5 @@
 @font-face {
   font-family: "Nunito Sans";
-  font-style: normal;
   src: local(""),
     url("../fonts/nunito-sans-v12-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -25,97 +24,126 @@ body
 .logo {
   content: url("../images/rp-logo.png");
   float: left;
-  margin-top: 25px;
+  margin-top: 22px;
   margin-left: 20px;
 }
 
 .container {
   position: absolute;
-  top: 28%;
+  top: 26%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: auto;
 }
 
-.title {
+.title{
   text-align: center;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 1.2;
+  text-shadow: 0.5px 0px 0.5px white;
 }
 
 .desc {
   text-align: center;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 13.5px;
   margin-top: 12px;
+  line-height: 1.6;
 }
 
 .main {
   position: absolute;
   background-color: #ffffff;
-  top: 65%;
+  top: 67%;
   left: 50%;
-  width: 450px;
+  width: 447px;
   transform: translate(-50%, -50%);
-  border-radius: 5px;
+  border-radius: 8px;
+  padding-bottom: 8px;
 }
 
 .main-title {
   margin-left: 25px;
-  font-size: 16px;
-  margin-top: 35px;
+  font-size: 20px;
+  margin-top: 45px;
+  color:#2E4053;
 }
 
 .main-label {
   margin-left: 25px;
-  font-size: 10px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.main-pass
+{
+  margin-left: 25px;
+  font-size: 12px;
+  margin-top: 13px;
 }
 
 .main-input {
   margin-left: 25px;
   border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-top:7px;
+  padding:5px;
 }
 
 input[type="text"]::placeholder {  
-  padding-left: 10px; 
+  padding: 10px;
 } 
 
 input[type="password"]::placeholder {  
-  padding-left: 10px; 
+  padding: 10px;
 } 
 
 input[type="checkbox"] {
-  position: relative;
-  font-size: 16px;
-  margin-top: 10px;
+  accent-color: #ffffff;
+  margin-left: 25px;
+  margin-top:12px;
+  background-color: gray;
 }
 
+input[type="checkbox"]:checked{
+  accent-color: lightgray;
+  color:black;
+}
 
 .main-button {
   margin-left: 25px;
   background-color: dodgerblue;
-  border-radius: 5px;
-  padding: 8px;
-  margin-top: 15px;
+  border-radius: 3px;
+  padding: 8px 13px 8px 13px;
+  margin-top: 12px;
   color: #ffffff;
   border: 1px solid white;
-}
-
-.main-checkbox {
-  font-size: 12px;  
+  font-size: 13px;
 }
 
 hr {
-  border-top: 1px lightgray;
+  height: 1px;
+  background-color: lightgray;
+  border: none;
   margin-left: 25px;
-  width: 390px;
+  width: 386px;
 }
 
 footer {
   position: absolute;
-  top: 93%;
+  top: 105%;
   left: 49%;
   color: #ffffff;
   font-size: 10px;
   transform: translate(-50%, -50%);
+  padding-bottom: 50px;
+}
+
+.checkbox-p
+{
+  position: absolute;
+  margin-top: -20px;
+  margin-left:39px;
+  font-size: 12px;
 }
