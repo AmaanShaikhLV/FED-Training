@@ -18,7 +18,7 @@
   width: 15%;
   height: 100%;
   background-color: #ffffff;
-  box-shadow: 60px 0px 55px  #dcdfe4;
+  box-shadow: 60px 0px 55px #dcdfe4;
 }
 
 ul li a {
@@ -66,12 +66,11 @@ body {
   width: 85%;
   height: 56px;
   border-bottom: 1px gray;
-  box-shadow: 0px 60px 59px  #f0f2f7;
+  box-shadow: 0px 60px 59px #f0f2f7;
   display: inline-block;
 }
 
-.profile-pic button
-{
+.profile-pic button {
   margin-left: 98%;
   margin-top: 10px;
   position: absolute;
@@ -81,8 +80,7 @@ body {
   padding: 8px;
 }
 
-#panel
-{
+#panel {
   position: absolute;
   width: 7%;
   margin-left: 91%;
@@ -94,12 +92,11 @@ body {
   border-radius: 5px;
 }
 
-#panel a
-{
+#panel a {
   position: absolute;
   text-decoration: none;
   background-color: transparent;
-  color:#514d6a;
+  color: #514d6a;
   margin-left: 7px;
 }
 
@@ -138,18 +135,16 @@ body {
   border-radius: 8px;
 }
 
-.status-h3
-{
+.status-h3 {
   margin-left: 12px;
-   font-size: 15px;
-   color:#534f6a;
+  font-size: 15px;
+  color: #534f6a;
 }
 
-.status-right-p1
-{
-  float: right; 
-  font-size: 20px; 
-  margin-top:-10px; 
+.status-right-p1 {
+  float: right;
+  font-size: 20px;
+  margin-top: -10px;
   margin-right: 13px;
   font-weight: bolder;
 }
@@ -160,25 +155,22 @@ body {
   margin-top: 6px;
 }
 
-.progress-bar
-{
-  margin-left: 12px; 
-  width:96%; 
-  margin-top:15px;
-  height:20px;
+.progress-bar {
+  margin-left: 12px;
+  width: 96%;
+  margin-top: 15px;
+  height: 20px;
 }
 
-.status-left-p2
-{
-  color: gray; 
+.status-left-p2 {
+  color: gray;
   margin-left: 12px;
   font-size: 12px;
 }
 
-.status-right-p2
-{
-  color: gray; 
-  margin-left: 93%; 
+.status-right-p2 {
+  color: gray;
+  margin-left: 93%;
   font-size: 12px;
   margin-top: -15px;
 }
@@ -194,7 +186,6 @@ table {
   text-align: left;
   margin-top: 8px;
   margin-left: 16px;
-
 }
 
 th {
@@ -213,8 +204,7 @@ td {
   border: none;
 }
 
-.container-cards
-{
+.container-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
@@ -223,7 +213,7 @@ td {
 }
 .container-teams {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
   width: 100%;
   margin-top: 15px;
@@ -250,26 +240,22 @@ td {
   border: none;
 }
 
-.container-cards h3
-{
+.container-cards h3 {
   margin-top: 5px;
 }
 
-.card-no-p
-{
-  color:#75718d; 
+.card-no-p {
+  color: #75718d;
   font-size: 14px;
   margin-top: 8px;
 }
 
-.card-type-p
-{
-  color:#75718d; 
+.card-type-p {
+  color: #75718d;
   font-weight: bolder;
 }
 
-.container-cards hr
-{
+.container-cards hr {
   height: 1px;
   background-color: lightgray;
   border: none;
@@ -289,13 +275,12 @@ td {
 .container-teams p {
   text-align: center;
   margin-top: 8px;
-   font-style: italic;
-    font-size: 10px; 
-    color:gray
+  font-style: italic;
+  font-size: 10px;
+  color: gray;
 }
 
-.container-teams hr
-{
+.container-teams hr {
   height: 1px;
   background-color: lightgray;
   border: none;
@@ -304,14 +289,12 @@ td {
   width: 79%;
 }
 
-.container-teams h3
-{
-margin-top: 20px;
-margin-left: 12px;
+.container-teams h3 {
+  margin-top: 20px;
+  margin-left: 12px;
 }
 
-.container-teams p
-{
+.container-teams p {
   color: #777591;
   margin-top: 10px;
   font-size: 12px;
@@ -328,7 +311,7 @@ margin-left: 12px;
   color: #ffffff;
   border: none;
   font-size: 13px;
-  display:block;
+  display: block;
   height: 35px;
   width: 35px;
 }
