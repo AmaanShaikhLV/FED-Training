@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/39242b1c40.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/catalog_detail.js"></script>
   </head>
   <body>
     <header>
@@ -32,17 +33,27 @@
       </div>
       <div class="profile-pic">
         <img class="profile-pic-img" />
+        <button onclick="Display()"> <i class="fa-solid fa-sort-down" style="color: #d9dfe8;"></i>
+        </button>
+        <div id="panel">
+          <i class="fa-regular fa-arrow-right-from-bracket"></i><a href="index.html">Logout</a>
+        </div>
       </div>
     </header>
 
     <section>
       <button class="btn" onclick="window.location.href='catalog.html'">
-        <i class="fa-solid fa-arrow-left"></i>Back
+        <i class="fa-solid fa-arrow-left"></i><b>Back</b>
       </button>
       <div class="container">
         <div class="container-img">
-          <h1 style="margin-top: 10px">Product Catalog</h1>
+          <h4 style="margin-top: 20px; margin-left: 25px;">PRODUCT DETAILS</h4>
+          <div class="container-main-imgs">
+            <div class="triangle-div">
+              <p>NEW</p>
+            </div>
           <img class="catalog-main-img" />
+        </div>
           <div class="container-1">
             <div class="catalog-1">
               <img class="catalog-1-img" />
@@ -75,21 +86,19 @@
           <button class="container-btn">With Background</button>
           <button class="container-btn">White</button>
           <br /><br />
-          <h2 style="font-size: 30px">Beautiful Chair For Kids</h2>
+          <h2 style="font-size: 30px;color: #504c6a">Beautiful Chair For Kids</h2>
           <br />
-          <h2>$189.95</h2>
-          <p class="price-underline">$234.23</p>
-          <hr class="line" />
+          <h2 style="color: #504c6a">$189.95</h2>
+          <p class="price-underline"><strike>$234.23</strike></p>
           <br />
           <hr class="gray-hr" />
-          <p style="font-size: 12px; width: 96%; margin-top: 10px">
+          <p style="font-size: 13px; width: 96%; margin-top: 10px; line-height: 1.5; color: #504c6a;">
             A chair is a piece of furniture with a raised surface, commonly used
             to seat a single person. Chairs are supported most often by four
-            legs and have a back;however, a chair can have three legs or can
+            legs and have a back; however, a chair can have three legs or can
             have a different shape.
           </p>
-          <br />
-          <p style="font-size: 10px">Available Size</p>
+          <p style="font-size: 10px; margin-top: 12px;color: #89849c">Available Size</p>
           <button class="container-size-btn">S</button>
           <button class="container-size-btn">M</button>
           <button class="container-size-btn">XL</button>
@@ -101,7 +110,7 @@
           <button class="container-info-btn">Description</button>
           <hr class="gray-hr" />
           <hr class="blue-hr" />
-          <p style="font-size: 12px; width: 96%; margin-top: 8px">
+          <p style="font-size: 13px; width: 96%; margin-top: 8px; line-height: 1.5;color: #504c6a;">
             One of the basic pieces of furniture, a chair is a type of seat. Its
             primary features are two pieces of a durable material, attached as
             back and seat to one another at a 90°-or-slightly-greater angle,
@@ -126,7 +135,7 @@
         <br />
         <p>
           We are a team of principled software engineers with experience of
-          successfully delivering software product and building high performance
+          successfully delivering software product and building high performance<br>
           teams for Start ups to fortune 500 companies.
           <br /><br />
           Our foundation is built on a caefully crafted value system which

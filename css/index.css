@@ -67,7 +67,7 @@ body
   margin-left: 25px;
   font-size: 20px;
   margin-top: 45px;
-  color:#2E4053;
+  color:#514d6a;
 }
 
 .main-label {
@@ -113,7 +113,7 @@ input[type="checkbox"]:checked{
 
 .main-button {
   margin-left: 25px;
-  background-color: dodgerblue;
+  background-color: #0191fe;
   border-radius: 3px;
   padding: 8px 13px 8px 13px;
   margin-top: 12px;

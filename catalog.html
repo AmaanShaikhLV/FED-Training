@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/39242b1c40.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/catalog.js"></script>
   </head>
   <body>
     <header>
@@ -32,13 +33,21 @@
       </div>
       <div class="profile-pic">
         <img class="profile-pic-img" />
+        <button onclick="Display()"> <i class="fa-solid fa-sort-down" style="color: #d9dfe8;"></i>
+        </button>
+        <div id="panel">
+          <i class="fa-regular fa-arrow-right-from-bracket"></i><a href="index.html">Logout</a>
+        </div>
       </div>
     </header>
     <section>
       <div class="container">
-        <h3 style="padding: 10px; margin-left: 10px">Product Catalog</h3>
+        <h3 style="padding: 10px; margin-left: 17px; margin-top: 15px; margin-bottom: 18px;">PRODUCTS CATALOG</h3>
         <div class="container-1">
           <div class="catalog-1">
+            <div class="triangle-div">
+              <p>NEW</p>
+            </div>
             <a
               href="catalog_details.html"
               style="text-decoration: none; color: black"
@@ -47,20 +56,22 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">ELLIOT GLASSES</p>
+              <p class="chair-name-p">ELLIOT GLASSES</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
 
           <div class="catalog-2">
+            <div class="triangle-div">
+              <p>NEW</p>
+            </div>
             <a
               href="catalog_details.html"
               style="text-decoration: none; color: black"
@@ -69,17 +80,16 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">MAXTOR CHAIR</p>
+              <p class="chair-name-p">ELLIOT GLASSES</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
 
           <div class="catalog-3">
@@ -91,17 +101,16 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">MANROAD CHAIR</p>
+              <p class="chair-name-p">MANROAD CHAIR</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
           <div class="catalog-4">
             <a
@@ -112,20 +121,22 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">ELLIOT GLASSES</p>
+              <p class="chair-name-p">ELLIOT GLASSES</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
 
           <div class="catalog-5">
+            <div class="triangle-div">
+              <p>NEW</p>
+            </div>
             <a
               href="catalog_details.html"
               style="text-decoration: none; color: black"
@@ -134,17 +145,16 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">MAXTOR CHAIR</p>
+              <p class="chair-name-p">MAXTOR CHAIR</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
 
           <div class="catalog-6">
@@ -156,17 +166,16 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">ELLIOT GLASSES</p>
+              <p class="chair-name-p">ELLIOT GLASSES</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
           <div class="catalog-1">
             <a
@@ -177,20 +186,22 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">ELLIOT GLASSES</p>
+              <p class="chair-name-p">ELLIOT GLASSES</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
 
           <div class="catalog-2">
+            <div class="triangle-div">
+              <p>NEW</p>
+            </div>
             <a
               href="catalog_details.html"
               style="text-decoration: none; color: black"
@@ -199,17 +210,16 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">MAXTOR CHAIR</p>
+              <p class="chair-name-p">MAXTOR CHAIR</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
 
           <div class="catalog-3">
@@ -221,19 +231,21 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">MANROAD CHAIR</p>
+              <p class="chair-name-p">MANROAD CHAIR</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
           <div class="catalog-4">
+            <div class="triangle-div">
+              <p>NEW</p>
+            </div>
             <a
               href="catalog_details.html"
               style="text-decoration: none; color: black"
@@ -242,17 +254,16 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">ELLIOT GLASSES</p>
+              <p class="chair-name-p">ELLIOT GLASSES</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
 
           <div class="catalog-5">
@@ -264,17 +275,16 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">MAXTOR CHAIR</p>
+              <p class="chair-name-p">MAXTOR CHAIR</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
 
           <div class="catalog-6">
@@ -286,19 +296,17 @@
               <hr
                 style="background-color: lightgray; border: none; height: 1px"
               />
-              <p style="margin-top: 8px; font-size: 12px">ELLIOT GLASSES</p>
+              <p class="chair-name-p">ELLIOT GLASSES</p>
             </a>
             <button class="container-size-btn">S</button>
             <button class="container-size-btn">M</button>
             <button class="container-size-btn">XL</button>
-            <p style="margin-top: 8px; font-style: italic; font-size: 8px">
+            <p class="lenses-p">
               Including lenses
             </p>
             <h3 class="price">$562.00</h3>
-            <p class="price-underline">$234.23</p>
-            <hr class="line" />
+            <p class="price-underline"><strike>$234.23</strike></p>
           </div>
-          <br />
           <br />
         </div>
       </div>

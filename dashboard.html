@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="css/dashboard.css" />
-    <script
-      src="https://kit.fontawesome.com/39242b1c40.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/39242b1c40.js" crossorigin="anonymous"></script>
+   <script src="js/dashboard.js"></script>
   </head>
   <body>
     <header>
@@ -32,6 +30,11 @@
       </div>
       <div class="profile-pic">
         <img class="profile-pic-img" />
+        <button onclick="Display()"> <i class="fa-solid fa-sort-down" style="color: #d9dfe8;"></i>
+        </button>
+        <div id="panel">
+          <i class="fa-regular fa-arrow-right-from-bracket"></i><a href="index.html">Logout</a>
+        </div>
       </div>
     </header>
 
@@ -41,15 +44,15 @@
         <div class="container-status">
           <div class="status-1">
             <h3 class="status-h3">Total Profit</h3>
-            <p class="status-right-p1" style="color: dodgerblue;">$18M</p>
+            <p class="status-right-p1" style="color: #007afe;">$18M</p>
             <p class="status-left-p1">Profit</p> 
-            <progress class="progress-bar" value="78" max="100" style="color: dodgerblue;"></progress>
+            <progress class="progress-bar" value="78" max="100"></progress>
             <p class="status-left-p2">Change</p>
             <p class="status-right-p2">78%</p>
           </div>
           <div class="status-2">
             <h3 class="status-h3">Feedbacks</h3>
-            <p class="status-right-p1" style="color: green;">134</p>
+            <p class="status-right-p1" style="color: #28a746;">134</p>
             <p class="status-left-p1">Customer Review</p>
             <progress class="progress-bar" value="89" max="100" style="accent-color: green;"></progress>
             <p class="status-left-p2">Change</p>
@@ -59,7 +62,7 @@
             <h3 class="status-h3">New Orders</h3>
             <p class="status-right-p1" style="color: red;">160</p>
             <p class="status-left-p1">Orders Progress</p>
-            <progress class="progress-bar" value="32" max="100" style="color: red;"></progress>
+            <progress class="progress-bar" value="55" max="100" style="accent-color: red;"></progress>
             <p class="status-left-p2">Change</p>
             <p class="status-right-p2">89%</p>
           </div>
@@ -67,7 +70,7 @@
             <h3 class="status-h3">New Users</h3>
             <p class="status-right-p1" style="color: gray;">382</p>
             <p class="status-left-p1">Joined Users</p>
-            <progress class="progress-bar" value="32" max="100" style="color: gray;"></progress>
+            <progress class="progress-bar" value="76" max="100" style="accent-color: gray;"></progress>
             <p class="status-left-p2">Change</p>
             <p class="status-right-p2">77%</p>
           </div>
@@ -129,7 +132,7 @@
             <p class="card-type-p">MASTER CARD</p>
             <br />
             <hr />
-            <p style="margin-top: 8px; font-style: italic; font-size: 12px; color: gray">
+            <p style="margin-top: 8px; font-style: italic; font-size: 12px; color: #777591">
               Expires at 03/22
             </p>
           </div>
@@ -145,7 +148,7 @@
             <p class="card-type-p">VISA</p>
             <br />
             <hr />
-            <p style="margin-top: 8px; font-style: italic; font-size: 12px; color: gray">
+            <p style="margin-top: 8px; font-style: italic; font-size: 12px; color: #777591">
               Expires at 04/25
             </p>
           </div>
@@ -161,7 +164,7 @@
             <p class="card-type-p">VISA</p>
             <br />
             <hr />
-            <p style="margin-top: 8px; font-style: italic; font-size: 12px; color: gray">
+            <p style="margin-top: 8px; font-style: italic; font-size: 12px; color: #777591">
               Expires at 03/22
             </p>
           </div>
@@ -175,9 +178,6 @@
             <button class="team-btn-1" id="btn-1">NOK</button>
             <button class="team-btn-1" id="btn-2">AMS</button>
             <button class="team-btn-1" id="btn-3">ANK</button>
-            <br />
-            <br />
-            <br />
             <hr />
             <p>
               Current Month Charged: </p>
@@ -190,9 +190,6 @@
             <button class="team-btn-2" id="btn-2">AMS</button>
             <button class="team-btn-2" id="btn-3">ANK</button>
             <button class="team-btn-2" id="btn-4">ANK</button>
-            <br />
-            <br />
-            <br />
             <hr />
             <p>
               Current Month Charged:</p>
@@ -203,9 +200,6 @@
             <h3>Team 3</h3>
             <button class="team-btn-3" id="btn-1">NOK</button>
             <button class="team-btn-3" id="btn-2">ANK</button>
-            <br />
-            <br />
-            <br />
             <hr />
             <p>
               Current Month Charged:</p>
@@ -218,9 +212,6 @@
             <button class="team-btn-4" id="btn-2">AMS</button>
             <button class="team-btn-4" id="btn-3">ANK</button>
             <button class="team-btn-4" id="btn-4">ANK</button>
-            <br />
-            <br />
-            <br />
             <hr />
             <p>
               Current Month Charged:

@@ -15,10 +15,10 @@
 
 .sidebar {
   position: fixed;
-  width: 14%;
+  width: 15%;
   height: 100%;
-  border-right: 1px solid whitesmoke;
   background-color: #ffffff;
+  box-shadow: 60px 0px 55px  #dcdfe4;
 }
 
 ul li a {
@@ -39,7 +39,7 @@ ul li a:hover {
   border-left: solid dodgerblue;
 }
 
-i {
+.sidebar i {
   float: right;
 }
 
@@ -51,7 +51,7 @@ i {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #f3f5f8;
 }
 
 .logo-img {
@@ -62,9 +62,45 @@ body {
 .profile-pic {
   position: relative;
   background-color: #ffffff;
-  left: 14.1%;
-  width: 85.9%;
-  height: 54px;
+  left: 15%;
+  width: 85%;
+  height: 56px;
+  border-bottom: 1px gray;
+  box-shadow: 0px 60px 59px  #f0f2f7;
+  display: inline-block;
+}
+
+.profile-pic button
+{
+  margin-left: 98%;
+  margin-top: 10px;
+  position: absolute;
+  border: none;
+  background-color: white;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+#panel
+{
+  position: absolute;
+  width: 7%;
+  margin-left: 91%;
+  margin-top: 4%;
+  padding: 10px;
+  display: none;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#panel a
+{
+  position: absolute;
+  text-decoration: none;
+  background-color: transparent;
+  color:#514d6a;
+  margin-left: 7px;
 }
 
 .profile-pic-img {
@@ -72,18 +108,20 @@ body {
   height: 40px;
   width: 45px;
   margin-top: 7px;
-  margin-right: 7px;
+  margin-right: 28px;
   border-radius: 11px;
   float: right;
 }
 
+
 .container {
   position: relative;
-  width: 78%;
-  left: 18%;
-  margin-top: 25px;
+  width: 81%;
+  left: 17%;
+  margin-top: 35px;
   border: 2px solid whitesmoke;
   background-color: white;
+  margin-bottom: 30px;
 }
 
 .container-1 {
@@ -97,7 +135,29 @@ body {
   align-items: center;
 }
 
-.container-1 div {
+.triangle-div
+{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 7px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #f9434a;
+    border-right: 50px solid transparent;
+}
+
+.triangle-div p
+{
+  position: absolute;
+  transform: rotate(317deg); 
+  font-size: 13px;
+  color: white;
+  margin-top: -40px;
+  font-weight: bold;
+  margin-left: 1px;
+}
+
+.container-1 .catalog-1,.catalog-2,.catalog-3,.catalog-4,.catalog-5,.catalog-6 {
   border: 1px solid lightgray;
   padding: 10px;
   margin-left: 10px;
@@ -106,7 +166,7 @@ body {
 .catalog-1 img {
   content: url("../images/001.jpg");
   width: 160px;
-  height: 160px;
+  height: 200px;
   margin-left: 85px;
 }
 
@@ -114,7 +174,7 @@ body {
 .catalog-5 img {
   content: url("../images/002.jpg");
   width: 160px;
-  height: 160px;
+  height: 200px;
   margin-left: 85px;
 }
 
@@ -122,21 +182,22 @@ body {
 .catalog-6 img {
   content: url("../images/003.jpg");
   width: 160px;
-  height: 160px;
+  height: 200px;
   margin-left: 85px;
 }
 
 .catalog-4 img {
   content: url("../images/004.jpg");
   width: 160px;
-  height: 160px;
+  height: 200px;
   margin-left: 85px;
 }
 
 .container-size-btn {
-  margin: 10px 4px 0 0;
-  padding: 4px;
-  border-radius: 10px;
+  margin: 14px 4px 0 0;
+  width: 23px;
+  height: 18px;
+  border-radius: 50px;
   background-color: #ffffff;
   border: 1px solid lightgray;
   font-size: 10px;
@@ -144,20 +205,32 @@ body {
 
 .price {
   position: absolute;
-  margin-top: -60px;
-  margin-left: 22%;
+  margin-top: -77px;
+  margin-left: 21%;
+  font-size: 22px;
+  color:#514d6a;
 }
 
 .price-underline {
   position: absolute;
-  margin-top: -35px;
-  margin-left: 24.2%;
+  margin-top: -40px;
+  margin-left: 24%;
   font-size: 12px;
+  color:#514d6a;
 }
 
-.line {
-  position: absolute;
-  width: 3.8%;
-  margin-top: -28px;
-  margin-left: 24.2%;
+.chair-name-p
+{
+  margin-top: 12px;
+   font-size: 14px; 
+   color:#514d6a; 
+   font-weight: bold;
 }
+
+.lenses-p
+{
+  margin-top: 12px;
+   font-style: italic; 
+   font-size: 10px
+}
+
