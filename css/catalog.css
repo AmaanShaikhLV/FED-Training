@@ -13,12 +13,23 @@
   font-family: "Nunito Sans";
 }
 
+.header
+{
+  display: flex;
+}
+
 .sidebar {
   position: fixed;
   width: 15%;
   height: 100%;
   background-color: #ffffff;
   box-shadow: 60px 0px 55px #dcdfe4;
+  left:0;
+  top:0;
+}
+
+.sidebar i {
+  float: right;
 }
 
 ul li a {
@@ -39,41 +50,39 @@ ul li a:hover {
   border-left: solid dodgerblue;
 }
 
-.sidebar i {
-  float: right;
+@media screen and (max-width:700px)
+{
+  .sidebar
+  {
+    display: none;
+  }
 }
 
 .logo {
+  display: flex;
   position: relative;
-  height: 8%;
-  text-align: center;
-  background-color: black;
+  width: 100%;
+  background-color: white;
+  justify-content: end;
+  height: 58px;
 }
 
 body {
   background-color: #f3f5f8;
 }
 
+.siderbar i
+{
+  float: right;
+}
+
 .logo-img {
   content: url("../images/rp-logo.png");
   padding: 5px;
+  margin-left: 20px;
 }
 
-.profile-pic {
-  position: relative;
-  background-color: #ffffff;
-  left: 15%;
-  width: 85%;
-  height: 56px;
-  border-bottom: 1px gray;
-  box-shadow: 0px 60px 59px #f0f2f7;
-  display: inline-block;
-}
-
-.profile-pic button {
-  margin-left: 98%;
-  margin-top: 10px;
-  position: absolute;
+.logo button {
   border: none;
   background-color: white;
   font-weight: bolder;
@@ -104,10 +113,8 @@ body {
   content: url("../images/profile_pic.jpg");
   height: 40px;
   width: 45px;
-  margin-top: 7px;
-  margin-right: 28px;
   border-radius: 11px;
-  float: right;
+  margin-top: 10px;
 }
 
 .container {
@@ -118,17 +125,19 @@ body {
   border: 2px solid whitesmoke;
   background-color: white;
   margin-bottom: 30px;
+  background-color: white;
 }
 
 .container-1 {
-  width: 96%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 15px;
-  margin-left: 18px;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  row-gap: 15px;
+  column-gap: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .triangle-div {
@@ -160,13 +169,14 @@ body {
   border: 1px solid lightgray;
   padding: 10px;
   margin-left: 10px;
+  width: 370px;
 }
 
 .catalog-1 img {
   content: url("../images/001.jpg");
   width: 160px;
   height: 200px;
-  margin-left: 85px;
+  margin-left: 100px;
 }
 
 .catalog-2 img,
@@ -174,7 +184,7 @@ body {
   content: url("../images/002.jpg");
   width: 160px;
   height: 200px;
-  margin-left: 85px;
+  margin-left: 100px;
 }
 
 .catalog-3 img,
@@ -182,14 +192,14 @@ body {
   content: url("../images/003.jpg");
   width: 160px;
   height: 200px;
-  margin-left: 85px;
+  margin-left: 100px;
 }
 
 .catalog-4 img {
   content: url("../images/004.jpg");
   width: 160px;
   height: 200px;
-  margin-left: 85px;
+  margin-left: 100px;
 }
 
 .container-size-btn {
@@ -200,22 +210,6 @@ body {
   background-color: #ffffff;
   border: 1px solid lightgray;
   font-size: 10px;
-}
-
-.price {
-  position: absolute;
-  margin-top: -77px;
-  margin-left: 21%;
-  font-size: 22px;
-  color: #514d6a;
-}
-
-.price-underline {
-  position: absolute;
-  margin-top: -40px;
-  margin-left: 24%;
-  font-size: 12px;
-  color: #514d6a;
 }
 
 .chair-name-p {
@@ -229,4 +223,52 @@ body {
   margin-top: 12px;
   font-style: italic;
   font-size: 10px;
+}
+
+.flex-1
+{
+  height: 69%;
+  width:100%;
+}
+
+.flex-2
+{
+  width: 50%;
+}
+
+.flex-3
+{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price {
+  margin-top: 15px;
+  font-size: 22px;
+  color: #514d6a;
+}
+
+.price-underline {
+  font-size: 12px;
+  color: #514d6a;
+}
+
+.catalog-1,.catalog-2,.catalog-3,.catalog-4,.catalog-5,.catalog-6
+{
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.flex-inline
+{
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: row;
 }
